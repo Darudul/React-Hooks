@@ -1,16 +1,12 @@
 import React from 'react';
-// import './App.css';
-// import HookCounterOne from './components/Hook_useEffect/HookCounterOne';
-// import HookMouse from './components/Hook_useEffect/HookMouse';
-import MouseContainer from './components/Hook_useEffect/MouseContainer';
+import './App.css';
+import DataFetching from './components/Hook_useEffect/DataFetching';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <HookCounterOne /> */}
-      {/* <HookMouse /> */}
-      <MouseContainer />
-
+      <DataFetching />
 
     </div>
   );
