@@ -1,0 +1,12 @@
+.darkTheme{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    border: 3px solid goldenrod;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+}

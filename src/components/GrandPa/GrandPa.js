@@ -6,20 +6,19 @@ import './GrandPa.css'
 import { useState } from 'react';
 import { createContext } from 'react';
 
-
 export const RingContext = createContext('ring')
+
 
 const GrandPa = () => {
     const [house, setHouse] = useState(1)
 
-    const ornaments = "Diamond Ring"
 
     const handleBuyAHouse = () => {
         const newHouseCount = house + 1
         setHouse(newHouseCount)
     }
     return (
-        <RingContext.Provider value={ornaments}>
+        <RingContext.Provider value={house}>
             <div className='grandpa'>
                 <h3>GrandPa</h3>
                 <button onClick={handleBuyAHouse}>Buy A House</button>
