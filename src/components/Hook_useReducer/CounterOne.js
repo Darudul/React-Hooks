@@ -1,5 +1,6 @@
 import React from 'react';
 import { useReducer } from 'react';
+import CounterTwo from './CounterTwo';
 
 
 const initialState = 0
@@ -25,6 +26,7 @@ const CounterOne = () => {
             <button onClick={() => dispatch('increment')}>Increment</button>
             <button onClick={() => dispatch('decrement')}>Decrement</button>
             <button onClick={() => dispatch('reset')}>Reset</button>
+            <CounterTwo />
         </div>
     );
 };
